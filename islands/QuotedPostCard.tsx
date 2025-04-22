@@ -143,7 +143,7 @@ export function QuotedPostCard(props: QuotedPostCardProps) {
                       )}
                     <span class="
                       ml-1 before:content-['('] after:content-[')']
-                      text-stone-500 dark:text-stone-400
+                      text-stone-500 dark:text-stone-400 wrap-anywhere
                     ">
                       {post.actor.handle}
                     </span>
